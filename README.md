@@ -8,7 +8,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Mario3999/Library-JS">
-    <img src="assets/img/library.png" alt="Logo" width="100" height="100">
+    <img src="src/assets/img/.png" alt="Logo" width="100" height="100">
   </a>
 
 </div>
@@ -35,7 +35,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="assets/img/Library-JS.png" alt="" width="" height=""></img>
+<img src="src/assets/img/Veggie.png" alt="" width="" height=""></img>
 
 Veggie è una single page app che permette di cercare ricette esclusivamente vegetariane, contattando le API del servizio Spoonacular.
 
