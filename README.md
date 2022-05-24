@@ -37,7 +37,7 @@
 
 <img src="assets/img/Library-JS.png" alt="" width="" height=""></img>
 
-Library-JS è stato sviluppato implementando in JavaScript le funzionalità di ricerca e visualizzazione dei risultati, contattando le API del servizio 'OpenLibrary' (The Internet Archive). 
+Veggie è una single page app che permette di cercare ricette esclusivamente vegetariane, contattando le API del servizio Spoonacular.
 
 ### Built With
 
@@ -49,7 +49,7 @@ Library-JS è stato sviluppato implementando in JavaScript le funzionalità di r
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Veggie è una single page app che permette di cercare ricette esclusivamente vegetariane. Si compone di una Homepage ed una pagina dedicata ai dettagli di ogni ricetta. E' facilmente fruibile utilizzando la textbox ed il pulsante di ricerca.
+Veggie è composta da una Homepage ed una pagina dedicata ai dettagli di ogni ricetta. E' facilmente fruibile utilizzando la textbox ed il pulsante di ricerca.
 
 ## Project Link
 
