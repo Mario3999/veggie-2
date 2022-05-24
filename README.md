@@ -8,7 +8,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Mario3999/Library-JS">
-    <img src="src/assets/img/.png" alt="Logo" width="100" height="100">
+    <img src="src/assets/img/veg-icon.png" alt="Logo" width="100" height="100">
   </a>
 
 </div>
