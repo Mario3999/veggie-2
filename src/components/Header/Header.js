@@ -1,7 +1,7 @@
-import React from 'react'
-import Textbox from './Textbox'
-import carrot from '../assets/img/carrot-image.svg'
-import styles from './Header.module.css'
+import React from 'react';
+import Textbox from '../Textbox/Textbox';
+import carrot from '../../assets/img/carrot-image.svg';
+import styles from './Header.module.css';
 
 const Header = ({search, updateSearch, getSearch}) => {
   return (

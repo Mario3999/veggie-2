@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './ResultsContainer.module.css'
-import Card from './Card'
+import Card from '../Card/Card';
 import {Link} from 'react-router-dom';
 
 const ResultsContainer = ({titles}) => {

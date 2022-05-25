@@ -1,8 +1,8 @@
 import React from 'react'
 import { useEffect, useState } from 'react';
-import Header from './Header';
-import ResultsContainer from './ResultsContainer';
-import sideimage from '../assets/img/veg-icon.png'
+import Header from '../Header/Header';
+import ResultsContainer from '../ResultsContainer/ResultsContainer';
+import sideimage from '../../assets/img/veg-icon.png';
 import axios from 'axios';
 
 
