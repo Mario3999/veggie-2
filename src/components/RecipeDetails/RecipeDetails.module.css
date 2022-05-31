@@ -16,6 +16,10 @@
     overflow: scroll;
 }
 
+.summary::-webkit-scrollbar {
+    display: none;
+}
+
 img{
     border-radius: 50px;
     width: 400px;
