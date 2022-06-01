@@ -25,9 +25,11 @@ const RecipeDetails = () => {
       alert(error)
     }
   }
+  
   if(!titles){
     return <div>Loading</div>
   }
+  
   return (
     <div className={styles['container']}>
        <h1>{titles.data.title}</h1>
