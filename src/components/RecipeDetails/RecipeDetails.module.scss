@@ -17,10 +17,9 @@
     width: 50vw;
     overflow: scroll;
     margin-bottom: 5px;
-}
-
-.summary::-webkit-scrollbar {
-    display: none;
+    &::-webkit-scrollbar{
+        display: none;
+    }
 }
 
 img{

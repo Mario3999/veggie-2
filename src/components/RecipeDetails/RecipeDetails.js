@@ -1,6 +1,6 @@
 import React from 'react'
 import axios from 'axios';
-import styles from './RecipeDetails.module.css';
+import styles from './RecipeDetails.module.scss';
 import { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 
@@ -34,7 +34,8 @@ const RecipeDetails = () => {
     <div className={styles['container']}>
        <h1>{titles.data.title}</h1>
        <img src={titles.data.image} alt="Immagine" />
-       <div className={styles['summary']}>{titles.data.summary}</div>
+       {/* <div className={styles['summary']}>{titles.data.summary}</div> */}
+       <div className={styles['summary']} dangerouslySetInnerHTML={{__html: titles.data.summary}} />
     </div>
   )
 }

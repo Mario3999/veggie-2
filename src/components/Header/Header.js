@@ -1,14 +1,13 @@
 import React from 'react';
 import Textbox from '../Textbox/Textbox';
-import carrot from '../../assets/img/carrot-image.svg';
 import styles from './Header.module.css';
 
 const Header = ({search, updateSearch, getSearch}) => {
   return (
     <header>
-      <img className={styles['carrot-image']} src={carrot} alt="" />
+      <img className={styles['carrot-image']} src={process.env.PUBLIC_URL + '/carrot-image.svg'} alt="carrot-image" />
       <h1>Veggie</h1>
-      <img className={styles['carrot-image-flipped']} src={carrot} alt="" />
+      <img className={styles['carrot-image-flipped']} src={process.env.PUBLIC_URL + '/carrot-image.svg'} alt="carrot-image" />
       <Textbox search={search} updateSearch={updateSearch} getSearch={getSearch} />
     </header>
   )

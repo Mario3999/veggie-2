@@ -2,7 +2,6 @@ import React from 'react'
 import { useEffect, useState } from 'react';
 import Header from '../Header/Header';
 import ResultsContainer from '../ResultsContainer/ResultsContainer';
-import sideimage from '../../assets/img/veg-icon.png';
 import axios from 'axios';
 
 
@@ -37,8 +36,8 @@ const Home = () => {
         <div className='App'>
             <Header search={search} updateSearch={updateSearch} getSearch={getSearch} />
             <ResultsContainer titles={titles} />
-            <img className='first-side-image' src={sideimage} alt="" />
-            <img className='second-side-image' src={sideimage} alt="" />
+            <img className='first-side-image' src={process.env.PUBLIC_URL + '/veg-icon.png'} alt="" />
+            <img className='second-side-image' src={process.env.PUBLIC_URL + '/veg-icon.png'} alt="" />
             
         </div>
     )
