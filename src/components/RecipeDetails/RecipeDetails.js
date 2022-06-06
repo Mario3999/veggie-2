@@ -3,6 +3,8 @@ import axios from 'axios';
 import styles from './RecipeDetails.module.scss';
 import { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
+import APIClient, { fetchApiRD } from '../APIClient/APIClient'
+import { titles } from '../APIClient/APIClient'
 
 const RecipeDetails = () => {
 
@@ -10,25 +12,25 @@ const RecipeDetails = () => {
 
   const pathname = unstrippedPathname.substring(1, unstrippedPathname.length)
 
-  const [titles, setTitles] = useState();
+  // const [titles, setTitles] = useState();
 
-  useEffect(()=>{fetchApi();},[]);
+  useEffect(()=>{fetchApiRD();},[]);
   
-  const fetchApi = async () => {
-    try{
-      const id = pathname
-      const response = await axios.get(`https://api.spoonacular.com/recipes/${id}/information?apiKey=7fad6a4779ae494389675988d67a0280`)
-      // console.log(response)
-      setTitles(response)
-    }
-    catch(error){
-      alert(error)
-    }
-  }
+  // const fetchApi = async () => {
+  //   try{
+  //     const id = pathname
+  //     const response = await axios.get(`https://api.spoonacular.com/recipes/${id}/information?apiKey=7fad6a4779ae494389675988d67a0280`)
+  //     // console.log(response)
+  //     setTitles(response)
+  //   }
+  //   catch(error){
+  //     alert(error)
+  //   }
+  // }
   
-  if(!titles){
-    return <div>Loading</div>
-  }
+  // if(!titles){
+  //   return <div>Loading</div>
+  // }
   
   return (
     <div className={styles['container']}>
