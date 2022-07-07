@@ -7,7 +7,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/Mario3999/Lveggie-2">
+  <a href="https://github.com/Mario3999/veggie-2">
     <img src="src/assets/img/veg-icon.png" alt="Logo" width="100" height="100">
   </a>
 
